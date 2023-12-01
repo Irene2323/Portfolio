@@ -71,13 +71,42 @@
             </table>
     </section>
 
+    
+    <button id="btn-alert">Click me for an alert</button>
+   
+
+    
+    <button id="hoverBtn">Hover Over Me</button>
+   
+
+
+    <button id="btn-counter">Click Me</button>
+    <p id="txt-counter">Number: 1</p>
+   
+
+    <ol id="numbers"></ol>
+
+   
+
+ 
 
     
     <footer>
-        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+        <p>&copy; 2023 My Portfolio. All rights reserved. <span id="currentYear"></span></p>
     </footer>
+    <script>
+        // alert('Hello,again!');
+        var currentYear = new Date().getFullYear(2023);
+        document.getElementById("currentYear").textContent = currentYear;
+    </script>
 </body>
 </html>
+
+
+
+
+    
+ 
 
 
 
