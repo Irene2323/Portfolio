@@ -42,6 +42,7 @@ h3 { color:peru;}
 h4 { color:peru;}
 h5 { color:peru;}
 
+/* Hover Button  */
 #hoverBtn {
     background-color: peru;
     color: black;
@@ -54,11 +55,12 @@ h5 { color:peru;}
     cursor: pointer;
 }
 
-/* Button styles on hover */
+
 #hoverBtn:hover {
     background-color: palegoldenrod;
 }
 
+/* Alert Button */
 #btn-alert {
     background-color: peru;
     color: black;
@@ -71,11 +73,12 @@ h5 { color:peru;}
     cursor: pointer;
 }
 
-/* Button styles on hover */
+
 #btn-alert {
     background-color: peru;
 }
 
+/* Incrementing Button */
 #btn-counter {
     background-color: peru;
     color: black;
@@ -88,11 +91,9 @@ h5 { color:peru;}
     cursor: pointer;
 }
 
-/* Button styles on hover */
+
 #btn-counter {
     background-color: peru;
 }
 
-/*The main color of my portfolio is blue because I think it can create the comfortable appearance for audience.*/
-/*My portfolio shows 5 projects (3 pictures and 2 videos)*/
-/*Thank you for your watching*/
+/* This is my re-submission */
