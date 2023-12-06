@@ -12,13 +12,13 @@ console.log(typeof age);
 
 
 
-    
+// Allert button   
 document.getElementById("btn-alert").addEventListener("click", function() {
     alert("Hello world!");
 });
     
 
-    
+// Hover button    
 document.getElementById('hoverBtn').onmouseover = () => {
     document.getElementById('hoverBtn').innerText = 'Click this Button';
     };
@@ -29,8 +29,6 @@ document.getElementById('hoverBtn').onmouseleave = () => {
    
 
 
-
-    
 // incrementing button
 let count = 1;
 
@@ -50,9 +48,6 @@ document.getElementById('btn-counter').onclick = () => {
 }
    
 
-    
-
-   
 //  list element
 var numbersList = document.getElementById('numbers');
 
